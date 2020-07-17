@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The freakyOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a5xelte
+LOCAL_PATH := device/samsung/a7xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_a5xelte.mk
+    $(LOCAL_PATH)/freaky_a7xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a5xelte-user \
-    lineage_a5xelte-userdebug \
-    lineage_a5xelte-eng
+    freaky_a7xelte-user \
+    freaky_a7xelte-userdebug \
+    freaky_a7xelte-eng

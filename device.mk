@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a5xelte
+LOCAL_PATH := device/samsung/a7xelte
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -55,10 +55,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/configs/gps/gps.xml:system/etc/gps.xml
-
-# hardware/samsung/AdvancedDisplay (MDNIE)
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
 
 # Graphics
 # Device uses high-density artwork where available
@@ -155,4 +151,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/samsung/universal7580-common/device-common.mk)
 
 # Call the proprietary setup
-$(call inherit-product, vendor/samsung/a5xelte/a5xelte-vendor.mk)
+$(call inherit-product, vendor/samsung/a7xelte/a7xelte-vendor.mk)
